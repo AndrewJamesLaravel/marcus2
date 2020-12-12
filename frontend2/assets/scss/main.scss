@@ -1,0 +1,25 @@
+/* Import Bulma Utilities */
+@import "~bulma/sass/utilities/_all.sass";
+
+/* Variable changes go here */
+// Colors
+$primary: #d0eeed;
+$secondary: #5286b4;
+$hero-body-padding: 1rem;
+
+/*.edo-theme {
+  background-color: $primary;
+
+  .hello-nuxt {
+    color: $secondary;
+  }
+}*/
+
+// Breakpoints
+$tablet: 724px;
+$desktop: 960px + (2 * $gap);
+$widescreen: 1152px + (2 * $gap);
+$fullhd: 1344px + (2 * $gap);
+
+/* Import the rest of Bulma */
+@import '~bulma';

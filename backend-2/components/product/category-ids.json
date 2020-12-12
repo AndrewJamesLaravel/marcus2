@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_product_category_ids",
+  "info": {
+    "name": "category_ids",
+    "icon": "key"
+  },
+  "options": {},
+  "attributes": {
+    "category_id": {
+      "type": "string"
+    }
+  }
+}

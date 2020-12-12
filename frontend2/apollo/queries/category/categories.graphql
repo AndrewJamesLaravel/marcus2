@@ -1,0 +1,6 @@
+query getSecondLevelCategories {
+  categories(where: {parent_id: "5fcae1c3d5a91f498ea268ad"}) {
+    _id
+    name
+  }
+}

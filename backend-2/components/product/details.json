@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_product_details",
+  "info": {
+    "name": "details",
+    "icon": "ellipsis-h"
+  },
+  "options": {},
+  "attributes": {
+    "weight": {
+      "type": "decimal"
+    },
+    "weight_units": {
+      "type": "string"
+    },
+    "model_num": {
+      "type": "integer"
+    },
+    "manufacturer": {
+      "type": "string"
+    },
+    "color": {
+      "type": "string"
+    },
+    "size": {
+      "type": "string"
+    }
+  }
+}

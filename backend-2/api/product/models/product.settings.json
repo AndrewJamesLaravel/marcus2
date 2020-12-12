@@ -1,0 +1,58 @@
+{
+  "kind": "collectionType",
+  "collectionName": "products",
+  "info": {
+    "name": "product",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "slug": {
+      "type": "uid",
+      "targetField": "sku"
+    },
+    "sku": {
+      "type": "string",
+      "unique": true,
+      "required": true
+    },
+    "name": {
+      "type": "string",
+      "required": true,
+      "minLength": 1,
+      "maxLength": 60
+    },
+    "description": {
+      "type": "text"
+    },
+    "total_reviews": {
+      "type": "integer",
+      "min": 0,
+      "default": 0
+    },
+    "average_review": {
+      "type": "decimal",
+      "min": 0
+    },
+    "primary_category": {
+      "type": "string"
+    },
+    "main_cat_id": {
+      "type": "string"
+    },
+    "options": {
+      "type": "dynamiczone",
+      "components": [
+        "product.details",
+        "product.pricing",
+        "product.price-history",
+        "product.category-ids",
+        "product.tags"
+      ]
+    }
+  }
+}

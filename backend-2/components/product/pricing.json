@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_product_pricings",
+  "info": {
+    "name": "pricing",
+    "icon": "dollar-sign"
+  },
+  "options": {},
+  "attributes": {
+    "retail": {
+      "type": "decimal"
+    },
+    "sale": {
+      "type": "decimal"
+    }
+  }
+}
